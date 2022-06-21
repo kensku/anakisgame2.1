@@ -5,30 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/menu.css" />
+    <script src="../javascript/AnakanMenu.js" defer></script>
+    <script src="../javascript/characters.js" defer></script>
+    <script src="../javascript/character1.js" defer></script>
+    <script src="../javascript/character2.js" defer></script>
+   
     <title>Menu</title>
   </head>
   <body>
+    
+    <h1>Escolha um aventureiro para percorrer a jornada e garantir o futuro da humanidade!</h1>
+    
     <div class="cards style-1">
         <div class="col">
-          <div class="card" id="anakanPic"><a href="../html/anakanStart.html"><img class="card-image" src="../Images/dominic-brugger-IG9WiAR78zQ-unsplash.jpeg"></a> 
+          
+          <div class="card"  id="anakanPic"><img class="card-image" src="../Images/dominic-brugger-IG9WiAR78zQ-unsplash.jpeg" onclick="anakan()"/> 
             <div class="card-title">ANAKAN</div>
             <div class="card-description">The One</div>
           </div>
         </div>
         <div class="col">
-          <div class="card" id="cowboyPic"><img class="card-image" src="../Images/simon-lee-ozVwowRmSwM-unsplash.jpeg"/>
+          <div class="card" id="cowboyPic"><img class="card-image" src="../Images/simon-lee-ozVwowRmSwM-unsplash.jpeg" onclick="cowboy()"/>
             <div class="card-title">COWBOY ESPACIAL</div>
             <div class="card-description">From Wild-Wild-West</div>
           </div>
         </div>
         <div class="col">
-          <div class="card" id="laykaPic"><img class="card-image" src="../Images/simon-lee-XnGxTBij48Q-unsplash.jpeg"/>
+          <div class="card" id="laykaPic"><img class="card-image" src="../Images/simon-lee-XnGxTBij48Q-unsplash.jpeg" onclick="layka()"/>
             <div class="card-title">LAYKA</div>
             <div class="card-description">The Animal</div>
           </div>
         </div>
       </div>
 
-      <script src="../javascript/AnakanMenu.js"></script>
   </body>
 </html>

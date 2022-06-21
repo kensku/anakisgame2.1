@@ -1,12 +1,7 @@
-function chooseCharacter(){
-
-    var personagem = prompt("Escolha um aventureiro para percorrer a jornada e garantir o futuro da humanidade! Anakan, Laika ou Cowboy Espacial");
-    var personagem = personagem.toUpperCase();
-
-    if (personagem === 'ANAKAN'){
-        alert("Anakan parte em direção ao planeta X-JARROS, localizado em uma galaxia distante e com seu céu coberto por inúmeras camadas de nuvens.");
-        alert("Por conta disso, as tempestades são mais fortes do que qualquer outra antes vista por Anakan.");
-        alert("Durante a entrada na atmosfera do Planeta X-JARROS, a nave de Anakan demonstra um problema no painel de controle. Devido as fortes descargas elétricas causadas pela tempestade, a nave se torna inutilizável.");
+function anakan(){
+    alert("Anakan parte em direção ao planeta X-JARROS, localizado em uma galaxia distante e com seu céu coberto por inúmeras camadas de nuvens.");
+    alert("Por conta disso, as tempestades são mais fortes do que qualquer outra antes vista por Anakan.");
+    alert("Durante a entrada na atmosfera do Planeta X-JARROS, a nave de Anakan demonstra um problema no painel de controle. Devido as fortes descargas elétricas causadas pela tempestade, a nave se torna inutilizável.");
        
         var anakanEscolha = prompt("A - Abandonar a nave em um Pod; \nB - Tentar realizar um pouso de emergência.")
         var anakanEscolha = anakanEscolha.toUpperCase();
@@ -62,5 +57,3 @@ function chooseCharacter(){
         }
 
     } 
-}
-
